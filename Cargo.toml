@@ -1,0 +1,21 @@
+[package]
+name = "pcc-puppet-enforcer-pdf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "4"
+serde = { version = "1.0", features = ["derive"] }
+svg2pdf = "0.7.0"
+usvg = "0.35.0"
+pdf-writer = "0.8.1"
+env_logger = "0.10.0"
+vl-convert = "0.13.1"
+libz-ng-sys = "1.1.12"
+log = "0.4.19"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.17"
+lazy_static = "1.4.0"
+chrono = "0.4.28"
